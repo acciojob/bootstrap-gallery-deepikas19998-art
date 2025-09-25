@@ -4,14 +4,10 @@
   <meta charset="UTF-8">
   <title>Cards Gallery</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link
-    rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-  />
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"
-  />
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Lightbox CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
   <style>
     h6, p {
       text-align: center;
@@ -23,89 +19,97 @@
   </style>
 </head>
 <body>
-  <div class="container mt-5">
-    <h2 class="text-center mb-4">Cards Gallery</h2> <!-- ✅ Correct header tag -->
-    <div class="row">
 
-      <!-- Repeat this card 6 times with unique content -->
-      <div class="col-md-4">
-        <div class="card">
-          <a href="https://via.placeholder.com/600x400?text=Image1" data-lightbox="gallery" class="lightbox">
-            <img src="https://via.placeholder.com/300x200?text=Image1" class="card-img-top" alt="Image 1" />
-          </a>
-          <div class="card-body">
-            <h6>Image Title 1</h6>
-            <p>Some description 1</p>
-          </div>
+<div class="container mt-5">
+  <h2 class="text-center mb-4">Cards Gallery</h2> <!-- ✅ Correct heading -->
+
+  <div class="row">
+
+    <!-- Card 1 -->
+    <div class="col-md-4">
+      <div class="card">
+        <a href="https://via.placeholder.com/600x400?text=Image1" data-lightbox="gallery" class="lightbox">
+          <img src="https://via.placeholder.com/300x200?text=Image1" class="card-img-top" alt="Image 1">
+        </a>
+        <div class="card-body">
+          <h6>Image Title 1</h6>
+          <p>Some description 1</p>
         </div>
       </div>
-
-      <div class="col-md-4">
-        <div class="card">
-          <a href="https://via.placeholder.com/600x400?text=Image2" data-lightbox="gallery" class="lightbox">
-            <img src="https://via.placeholder.com/300x200?text=Image2" class="card-img-top" alt="Image 2" />
-          </a>
-          <div class="card-body">
-            <h6>Image Title 2</h6>
-            <p>Some description 2</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card">
-          <a href="https://via.placeholder.com/600x400?text=Image3" data-lightbox="gallery" class="lightbox">
-            <img src="https://via.placeholder.com/300x200?text=Image3" class="card-img-top" alt="Image 3" />
-          </a>
-          <div class="card-body">
-            <h6>Image Title 3</h6>
-            <p>Some description 3</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card">
-          <a href="https://via.placeholder.com/600x400?text=Image4" data-lightbox="gallery" class="lightbox">
-            <img src="https://via.placeholder.com/300x200?text=Image4" class="card-img-top" alt="Image 4" />
-          </a>
-          <div class="card-body">
-            <h6>Image Title 4</h6>
-            <p>Some description 4</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card">
-          <a href="https://via.placeholder.com/600x400?text=Image5" data-lightbox="gallery" class="lightbox">
-            <img src="https://via.placeholder.com/300x200?text=Image5" class="card-img-top" alt="Image 5" />
-          </a>
-          <div class="card-body">
-            <h6>Image Title 5</h6>
-            <p>Some description 5</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card">
-          <a href="https://via.placeholder.com/600x400?text=Image6" data-lightbox="gallery" class="lightbox">
-            <img src="https://via.placeholder.com/300x200?text=Image6" class="card-img-top" alt="Image 6" />
-          </a>
-          <div class="card-body">
-            <h6>Image Title 6</h6>
-            <p>Some description 6</p>
-          </div>
-        </div>
-      </div>
-
     </div>
-  </div>
 
-  <!-- JS Libraries -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <!-- Card 2 -->
+    <div class="col-md-4">
+      <div class="card">
+        <a href="https://via.placeholder.com/600x400?text=Image2" data-lightbox="gallery" class="lightbox">
+          <img src="https://via.placeholder.com/300x200?text=Image2" class="card-img-top" alt="Image 2">
+        </a>
+        <div class="card-body">
+          <h6>Image Title 2</h6>
+          <p>Some description 2</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-md-4">
+      <div class="card">
+        <a href="https://via.placeholder.com/600x400?text=Image3" data-lightbox="gallery" class="lightbox">
+          <img src="https://via.placeholder.com/300x200?text=Image3" class="card-img-top" alt="Image 3">
+        </a>
+        <div class="card-body">
+          <h6>Image Title 3</h6>
+          <p>Some description 3</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="col-md-4">
+      <div class="card">
+        <a href="https://via.placeholder.com/600x400?text=Image4" data-lightbox="gallery" class="lightbox">
+          <img src="https://via.placeholder.com/300x200?text=Image4" class="card-img-top" alt="Image 4">
+        </a>
+        <div class="card-body">
+          <h6>Image Title 4</h6>
+          <p>Some description 4</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="col-md-4">
+      <div class="card">
+        <a href="https://via.placeholder.com/600x400?text=Image5" data-lightbox="gallery" class="lightbox">
+          <img src="https://via.placeholder.com/300x200?text=Image5" class="card-img-top" alt="Image 5">
+        </a>
+        <div class="card-body">
+          <h6>Image Title 5</h6>
+          <p>Some description 5</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="col-md-4">
+      <div class="card">
+        <a href="https://via.placeholder.com/600x400?text=Image6" data-lightbox="gallery" class="lightbox">
+          <img src="https://via.placeholder.com/300x200?text=Image6" class="card-img-top" alt="Image 6">
+        </a>
+        <div class="card-body">
+          <h6>Image Title 6</h6>
+          <p>Some description 6</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- JS Dependencies -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
 </body>
 </html>
